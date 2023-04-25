@@ -19,7 +19,7 @@ open class ElegantEmojiPicker: UIViewController {
     let padding = 16.0
     let topElementHeight = 40.0
     
-    var backgroundBlur = UIVisualEffectView(effect: UIBlurEffect(style: .systemUltraThinMaterial))
+    public var backgroundBlur = UIVisualEffectView(effect: UIBlurEffect(style: .systemUltraThinMaterial))
     
     var searchFieldBackground: UIVisualEffectView?
     var searchField: UITextField?
